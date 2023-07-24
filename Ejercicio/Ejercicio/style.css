@@ -1,0 +1,48 @@
+body {
+    background-image: url(img/moto.jpg);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #9ba4bd;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 25%;
+    box-shadow: 0 0 10px rgba(22, 255, 236, 0.928);
+}
+
+tbody tr:nth-child(odd){
+    background-color: #7a7a7af5  ;
+    border: 1,5px solid #040404;
+}
+tbody tr:nth-child(even){
+    background-color: #ffffff;
+    border: 1,5px splid #040404
+}
+
+thead th{
+    background-color: #2a2a2a;
+    color: rgb(17, 143, 143);
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px
+}
+
+tbody tr:hover {
+    background-color: rgb(61, 182, 168);
+    transition: background-color 0.3s ease;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #676cfa;
+    text-shadow: rgba(149, 241, 198, 0.926) -2px 4px;
+    font-size: 200%;
+    font-display: auto;
+    font-family: 'work sans', sans-serif;
+}
